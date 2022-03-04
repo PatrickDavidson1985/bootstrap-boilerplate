@@ -1,0 +1,34 @@
+a {
+    text-decoration: none;
+}
+
+ul, li{
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    padding: 20px;
+}
+
+.nav-mjv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media  screen and (min-width: 700px) {
+    .nav-mjv {
+       flex-direction: row;
+       justify-content: space-around;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-mjv {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+}
