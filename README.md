@@ -12,3 +12,6 @@ This project includes:
 -CSS/style.css
 -JS/
 -IMG/
+
+
+Contact info: Patrick Davidson patdeezy@patdeezy.com
